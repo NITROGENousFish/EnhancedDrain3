@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: MIT
-
 import base64
 import logging
 import re
