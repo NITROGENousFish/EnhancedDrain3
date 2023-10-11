@@ -6,10 +6,10 @@ import sys
 import unittest
 from os.path import dirname
 
-from drain3 import TemplateMiner
-from drain3.masking import MaskingInstruction
-from drain3.memory_buffer_persistence import MemoryBufferPersistence
-from drain3.template_miner_config import TemplateMinerConfig
+from flinkdrain3 import TemplateMiner
+from flinkdrain3.masking import MaskingInstruction
+from flinkdrain3.memory_buffer_persistence import MemoryBufferPersistence
+from flinkdrain3.template_miner_config import TemplateMinerConfig
 
 
 class TemplateMinerTest(unittest.TestCase):
