@@ -36,9 +36,7 @@ class TemplateMiner:
         
         
         if config is None:
-            logger.info(f"Loading configuration from {config_filename}")
             config = TemplateMinerConfig()
-            config.load(config_filename)
 
         self.config = config
         p.PROFILER.enable = self.config.profiling_enabled

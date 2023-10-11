@@ -1,6 +1,6 @@
 [project]
 name = "flinkdrain3"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="NITROGENousFish", email="lizongyang0527@hotmail.com" },
 ]
@@ -12,6 +12,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jsonpickle = "*"
+cachetools = "*"
 
 [project.urls]
 "Homepage" = "https://github.com/NITROGENousFish/flinkdrain3"
